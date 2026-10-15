@@ -1,12 +1,12 @@
 # Registro de Testes de Integração
 
-Aluno: LíviaOliveira Martins Matos
+Aluno: Lívia Oliveira Martins Matos
 Grupo: 8
 Data: 15/10/2026
 
 ## Banco de teste
 Nome do banco de teste: notificacoes_test
-Por que ele é separado do banco da API (uma frase):
+Por que ele é separado do banco da API:
 Evita que a limpeza de dados nos testes apague as informações do banco da API.
 
 ## Testes escritos
@@ -25,4 +25,4 @@ Teste: ParticipanteService.atualizar (integração) - grava o nome novo no banco
 Esperado: "Ana Maria"
 Obtido: "Ana"
 O que o usuário da API veria:
-A rota responde com sucesso (200 OK), mas a alteração não é gravada no banco de dados e o participante permanece com o nome antigo.
+A rota responde com sucesso (200 OK), mas a alteração não é gravada no banco de dados fazendo com que o participante fique com o nome antigo.
