@@ -26,3 +26,14 @@ Esperado: "Ana Maria"
 Obtido: "Ana"
 O que o usuário da API veria:
 A rota responde com sucesso (200 OK), mas a alteração não é gravada no banco de dados fazendo com que o participante fique com o nome antigo.
+
+### Erro:
+```bash 
+  tests/integration/participante.integration.test.js
+  ● ParticipanteService.criar (integração) › ParticipanteService.atualizar (integração) › grava o nome novo no banco
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "Ana Maria"
+    Received: "Ana"
+    ```
