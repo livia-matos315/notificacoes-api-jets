@@ -8,17 +8,17 @@
 
 | # | Arquivo | O que o teste verifica | Tipo |
 | --- | ------- | ---------------------- | ----------------------- |
-| 1 | `ambiente.test.js` | Verifica se o ambiente de testes está configurado executando a soma (`1 + 1`)[cite: 1] | Sucesso |
-| 2 | `parseId.test.js` | Verifica se lança `ValidationError` quando o ID não é um número (`"abc"`)[cite: 2] | Sucesso |
-| 3 | `parseId.test.js` | Verifica se lança `ValidationError` quando o ID mistura números e letras (`"12abc"`)[cite: 2] | Falha |
+| 1 | `ambiente.test.js` | Verifica se o ambiente de testes está configurado executando a soma (`1 + 1`) | Sucesso |
+| 2 | `parseId.test.js` | Verifica se lança `ValidationError` quando o ID não é um número (`"abc"`) | Sucesso |
+| 3 | `parseId.test.js` | Verifica se lança `ValidationError` quando o ID mistura números e letras (`"12abc"`) | Falha |
 | 4 | `validators.test.js` | Verifica se lança `ValidationError` quando o ID não é um número (`"abc"`) | Sucesso |
-| 5 | `validators.test.js` | Verifica se lança `ValidationError` quando o ID mistura números e letras (`"12abc"`)[cite: 3] | Falha |
-| 6 | `validators.test.js` | Verifica se retorna o número correto (`12`) quando o ID é uma string numérica válida (`"12"`)[cite: 3] | Sucesso |
+| 5 | `validators.test.js` | Verifica se lança `ValidationError` quando o ID mistura números e letras (`"12abc"`) | Falha |
+| 6 | `validators.test.js` | Verifica se retorna o número correto (`12`) quando o ID é uma string numérica válida (`"12"`) | Sucesso |
 
 ## Resultado
 
-- **Passaram:** 5
-- **Falharam:** 1 (Desafio)
+- **Passaram:** 4
+- **Falharam:** 2
 
 
 ## Defeito encontrado
@@ -31,4 +31,4 @@
 ## Cobertura
 
 - **% Lines da linha "helpers":** `22,22%`
-- **Em uma frase, o que esse número significa:** Significa que apenas essa quantidad de linhas foi executada para teste.
+- **Em uma frase, o que esse número significa:** Significa que apenas essa quantidade de linhas foi executada para teste.
